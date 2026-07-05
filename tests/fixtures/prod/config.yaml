@@ -1,0 +1,33 @@
+# Production config — YAML format
+database:
+  url: postgresql://db-prod-primary.internal:5432/myapp_prod
+  host: db-prod-primary.internal
+  port: 5432
+  name: myapp_prod
+
+redis:
+  url: redis://redis-cluster.internal:6379/0
+
+app:
+  debug: false
+  log_level: warn
+  api_url: https://api.myapp.com
+
+security:
+  secret_key: prod-real-secret-key-512bit-hash
+  jwt_secret: prod-jwt-real-secret-key
+  api_key: sk-prod-live-key-xyz789abc012
+
+feature_flags:
+  new_ui: true
+  beta_search: true
+  dark_mode: false
+
+limits:
+  max_upload_size: 104857600
+  rate_limit: 1000
+
+monitoring:
+  sentry_dsn: https://abc123@sentry.io/prod
+  new_relic_enabled: true
+  dd_env: production

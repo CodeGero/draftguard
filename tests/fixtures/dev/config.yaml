@@ -1,0 +1,32 @@
+# Dev config — YAML format for comparison testing
+database:
+  url: postgresql://localhost:5432/myapp_dev
+  host: localhost
+  port: 5432
+  name: myapp_dev
+
+redis:
+  url: redis://localhost:6379/0
+
+app:
+  debug: true
+  log_level: debug
+  api_url: http://localhost:3000
+
+security:
+  secret_key: dev-secret-key
+  jwt_secret: dev-jwt-secret
+  api_key: your-api-key-here
+
+feature_flags:
+  new_ui: true
+  beta_search: false
+  dark_mode: true
+
+limits:
+  max_upload_size: 10485760
+  rate_limit: 100
+
+mail:
+  host: localhost
+  port: 1025

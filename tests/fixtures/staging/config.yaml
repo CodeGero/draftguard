@@ -1,0 +1,28 @@
+# Staging config — YAML format
+database:
+  url: postgresql://db-staging.internal:5432/myapp_staging
+  host: db-staging.internal
+  port: 5432
+  name: myapp_staging
+
+redis:
+  url: redis://redis-staging.internal:6379/0
+
+app:
+  debug: false
+  log_level: info
+  api_url: https://staging-api.myapp.com
+
+security:
+  secret_key: staging-real-secret-key-xyz
+  jwt_secret: staging-jwt-real-secret
+  api_key: sk-staging-live-key-abc123def456
+
+feature_flags:
+  new_ui: true
+  beta_search: true
+  dark_mode: true
+
+limits:
+  max_upload_size: 52428800
+  rate_limit: 500
