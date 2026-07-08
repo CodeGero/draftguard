@@ -47,8 +47,8 @@ dev = [
 
 [project.urls]
 Homepage = "https://kryptorious.gumroad.com/l/jbvet"
-Repository = "https://github.com/kryptorious/draftguard"
-Issues = "https://github.com/kryptorious/draftguard/issues"
+Repository = "https://github.com/CodeGero/draftguard"
+Issues = "https://github.com/CodeGero/draftguard/issues"
 
 [project.scripts]
 draftguard = "draftguard.cli:main"
