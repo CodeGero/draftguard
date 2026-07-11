@@ -33,3 +33,8 @@ draftguard compare ./dev ./prod
 ## License
 
 MIT — free for personal and commercial use. The $9 lifetime license adds DevFlow Premium (multi-environment CI/CD, approval gates, infrastructure-as-code). Get it at [kryptorious.gumroad.com/l/jbvet](https://kryptorious.gumroad.com/l/jbvet).
+
+
+---
+
+**Part of the Kryptorious developer-tools suite.** Get the full bundle with DevFlow Premium (multi-env CI, approval gates, infra-as-code): 👉 https://codegero.github.io/store/
