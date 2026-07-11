@@ -38,3 +38,7 @@ MIT — free for personal and commercial use. The $9 lifetime license adds DevFl
 ---
 
 **Part of the Kryptorious developer-tools suite.** Get the full bundle with DevFlow Premium (multi-env CI, approval gates, infra-as-code): 👉 https://codegero.github.io/store/
+
+---
+
+**Part of the Kryptorious developer-tools suite.** Get the full bundle with DevFlow Premium (multi-env CI, approval gates, infra-as-code): 👉 https://codegero.github.io/store/
